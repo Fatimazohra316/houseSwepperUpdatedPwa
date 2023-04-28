@@ -1,0 +1,1301 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+@font-face {
+    font-family: "Sofia";
+    src: url(Fonts/Sofia-Pro-Light.ttf);
+}
+
+@font-face {
+    font-family: "SofiaMedium";
+    src: url(Fonts/Sofia\ Pro\ Medium.ttf);
+
+}
+
+.firstSection {
+    background-color: rgba(95, 96, 185, 1);
+    border-radius: 10px 10px 0px 0px;
+    /* width: fit-content; */
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5F60B9;
+    padding: 10px 8%;
+    z-index: 9999;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    font-family: "Sofia";
+    padding: 0px 20px !important;
+}
+
+.navbar-nav .active {
+    border-bottom: 2px solid white;
+}
+
+.houseSweep {
+    width: 14vw;
+}
+
+.signUp {
+    background-color: rgba(113, 115, 193, 1);
+    color: white !important;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 5px 20px !important;
+}
+
+.logIn {
+    background-color: #FFFFFF;
+    color: rgba(95, 96, 185, 1) !important;
+    border: 1px solid #5F60B9;
+    border-radius: 10px;
+    padding: 5px 20px !important;
+    margin-left: 10px;
+}
+
+.navbar-collapse {
+    padding-top: 12px;
+}
+
+.professional {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 65px;
+    color: white;
+
+}
+
+.offer {
+    font-weight: 400;
+    font-size: 25px;
+    color: rgba(221, 221, 221, 1);
+}
+
+.fastService {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 10px;
+    color: #FFFFFF;
+
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    /* width: 91%; */
+}
+
+.serviceDiv {
+    display: flex;
+    align-items: center;
+    /* padding: 5px; */
+}
+
+.service {
+    width: 15%;
+}
+
+.bookButton {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    background: #7173C1;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 50px;
+
+    /* padding: 10px; */
+}
+
+.bookButton:hover {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    background: #0E0E53;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    align-items: center;
+    /* margin-top: 100px; */
+
+    /* padding: 10px; */
+}
+
+.book {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Sofia";
+}
+
+.booknowImage {
+    width: 20%;
+}
+
+.cleanBanner {
+    width: 100%;
+}
+
+.firstSectionPart {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.secondSection {
+    margin-top: 150px;
+}
+
+.cleaningServices {
+    font-family: "SofiaMedium";
+    font-weight: 500;
+    font-size: 36px;
+    color: rgba(14, 14, 83, 1);
+    margin-left: 5px;
+}
+
+.purpleHand {
+    width: 5%;
+}
+
+.cleaning {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    box-shadow: 0px 0px 4px #AFAFDC;
+    border-radius: 20px;
+}
+
+
+/* .cardSection{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+} */
+/* .cardTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.bath{
+    width: 25%;
+}
+.card{
+    box-shadow: 0px 0px 4px #AFAFDC;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: rgba(67, 67, 130, 1);
+    padding: 5px;
+}
+.card-text{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(63, 61, 86, 1);
+}
+.getButton{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    background: #7173C1;
+   border: 1px solid #FFFFFF;
+   border-radius: 10px;
+   align-items: center;
+   margin-top: 25px;
+   */
+/* padding: 10px; */
+/* } */
+/* .getButton:hover{
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    background: #0E0E53;
+   border: 1px solid #FFFFFF;
+   border-radius: 10px;
+   align-items: center;
+   /* margin-top: 100px; */
+
+/* padding: 10px; */
+/* } */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #5F60B9;
+
+    text-align: center;
+}
+
+header nav a.active,
+/* header nav a:hover{
+    background-color: white;
+    color: black !important;
+} */
+.get {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Sofia";
+}
+
+.getnowImage {
+    width: 20%;
+}
+
+.washroomPart {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    /* margin-top: 50px; */
+}
+
+.box {
+    box-shadow: 0px 0px 4px #AFAFDC;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.wfirstFont {
+    font-weight: 700;
+    font-size: 30px;
+    color: #434382;
+    width: 20%;
+    line-height: 42px;
+}
+
+.buttonnow {
+    display: none;
+}
+
+.wfirstimg {
+    width: 90px;
+}
+
+.wfirstDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.font {
+    font-weight: 400;
+    font-size: 20px;
+    color: #3F3D56;
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+/* .getnowImage{
+    width: 29px;
+} */
+.getButton {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    padding: 9px;
+    background: #7173C1;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 20px;
+
+    /* padding: 10px; */
+}
+
+.getButton:hover {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    padding: 9px;
+    background: #0E0E53;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 20px;
+
+    /* padding: 10px; */
+}
+
+.get {
+    font-size: 21px;
+    font-weight: 400;
+    font-family: "Sofia";
+}
+
+.wsecondFont {
+    font-weight: 700;
+    font-size: 30px;
+    color: #434382;
+    width: 61%;
+    line-height: 42px;
+}
+
+.wthirdFont {
+    font-weight: 700;
+    font-size: 30px;
+    color: #434382;
+    width: 59%;
+    line-height: 42px;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #7173C1;
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 0px;
+}
+
+.thirdSection {
+    margin-top: 100px;
+}
+
+.dualline {
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.line {
+    background-image: url("images/line1.png");
+    background-size: 100% 100%;
+    /* height: 500px; */
+    /* background-position: center; */
+    padding: 15%;
+}
+
+.lines {
+    background-image: url("images/line.png");
+    background-size: 100% 100%;
+    /* height: 500px; */
+    /* background-position: center; */
+    padding: 15%;
+}
+
+.easy {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0C0C54;
+    width: 99%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.pera {
+    font-size: 16px;
+    font-weight: 300;
+    color: #2F2F42;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.para {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2F2F42;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.applelogo {
+    width: 10%;
+}
+
+.buttonPart {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.fourSection {
+    margin-top: 100px;
+}
+
+.mobileParts {
+    display: none;
+}
+
+.mobilePart {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 70px;
+}
+
+.category {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.living {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.living {
+    display: none;
+}
+
+.living2 {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.Living {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.product {
+    font-weight: 700;
+    font-size: 23px;
+    color: #686AE5;
+}
+
+.deal {
+    font-weight: 700;
+    font-size: 55px;
+    color: #0C0C54;
+}
+
+.content {
+    font-size: 20px;
+    font-weight: 400;
+    color: #3F3D56;
+}
+
+.heart {
+    /* width: 100%; */
+    height: 40px;
+}
+
+.workflow {
+    font-size: 20.42px;
+    font-weight: 600;
+    color: #5F60B9;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.workFlowDiv {
+    margin-top: 20px;
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+}
+
+/* .workflowDiv{
+    display: flex;
+    align-items: center;
+} */
+.fiveSection {
+    background-color: #9B9BED;
+    display: flex;
+    border-radius: 20px;
+    margin-top: 100px;
+    padding: 50px;
+
+}
+
+.fiveSections {
+    background-color: #9B9BED;
+    display: none;
+    border-radius: 20px;
+    margin-top: 100px;
+    padding: 50px;
+
+}
+
+.cleaningService {
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 50px;
+}
+
+.five {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 50px; */
+}
+
+.mobileHand {
+    width: 100%;
+    margin-top: -100px;
+}
+
+.handButton {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    padding: 9px;
+    background: #7173C1;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 20px;
+
+    /* padding: 10px; */
+}
+
+.handButton:hover {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    padding: 9px;
+    background: #0E0E53;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 20px;
+
+    /* padding: 10px; */
+}
+
+.hand {
+    font-size: 21px;
+    font-weight: 400;
+    font-family: "Sofia";
+}
+
+.six {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+.select {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.selectFont {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0C0C54;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.selectText {
+    font-size: 19px;
+    font-weight: 400;
+    color: #3F3D56;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fullForm {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 5px;
+    margin: 0 auto;
+    margin-left: -33px;
+    /* display: block; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+
+}
+
+.firstName {
+
+    padding: 15px;
+    /* border-radius: 10px; */
+    border: #EAFAF3;
+    margin-left: 20px;
+    width: 85%;
+    border-radius: 10px;
+    background-color: #F0F0FA;
+}
+
+.firstNameHead {
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0E0E53;
+    font-family: "SofiaMedium";
+}
+
+.firstFormPart {
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.message {
+    margin-left: 20px;
+    border: none;
+    width: 185%;
+    border-radius: 10px;
+    background-color: #F0F0FA;
+
+}
+
+.query {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "SofiaMedium";
+    color: #3F3D56;
+    margin-left: -41px;
+}
+
+.info {
+    font-weight: 500;
+    size: 24px;
+    font-family: "SofiaMedium";
+    color: #0E0E53;
+}
+
+.formButton {
+    display: block;
+    width: 96%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #5F60B9;
+    margin-left: -10px;
+}
+
+.formButton:hover {
+    display: block;
+    width: 96%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #0E0E53;
+    margin-left: -10px;
+}
+
+.purpleDiv {
+    background-image: url("images/purplebg.png");
+    background-size: 100% 100%;
+    /* height: 500px; */
+    padding: 15%;
+
+    /* padding-top: 500px; */
+}
+
+.rating {
+    width: 150px;
+}
+
+.purpleFont {
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.menImage {
+    width: 100px;
+}
+
+.purpleImagePart {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.walt {
+    color: #68B06E;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.cust {
+    color: #86AFB1;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: -23px;
+}
+
+.sevenSection {
+    margin-top: 100px;
+    display: none;
+}
+
+.mainformPart {
+    display: flex;
+    align-items: center;
+    /* margin-top: 100px; */
+}
+
+.eightSection {
+    background-color: #5F60B9;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    
+
+}
+
+.carousel-cell {
+    width: 100%;
+}
+
+/* cell number */
+.carousel-cell:before {
+    display: block;
+}
+
+.footerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footerList {
+    display: flex;
+    list-style: none;
+    padding-top: 30px;
+    /* justify-content: center; */
+
+}
+
+.houseSweeps {
+    width: 14vw;
+}
+
+.footerList li a {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    font-family: "SofiaMedium";
+}
+
+.footericon {
+    display: flex;
+    color: #FFFFFF;
+}
+
+.footerList i {
+    padding: 5px;
+}
+
+.instagram {
+    /* width: 50px; */
+    margin-left: 10px;
+    padding-top: 35px;
+}
+
+.apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 50px !important;
+    margin-top: 0px;
+}
+
+.copyright {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+
+}
+
+@media only screen and (max-width: 1400px) {
+    .navbar-nav .nav-link {
+        color: white !important;
+        font-weight: 400 !important;
+        font-size: 18px !important;
+        font-family: "Sofia";
+        padding: 0px 20px !important;
+    }
+
+    .signUp {
+        padding: 5px 15px !important;
+    }
+
+    .logIn {
+        padding: 5px 15px;
+    }
+
+    .professional {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .offer {
+        font-size: 22px;
+    }
+
+    .fastService {
+        font-size: 18px;
+
+    }
+
+    .bookButton {
+        width: 42%;
+    }
+
+    .firstSectionPart {
+        margin-top: 120px;
+    }
+
+    .wfirstFont {
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+    .font {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .getButton {
+        width: 70%;
+    }
+
+    .wsecondFont {
+        font-size: 24px;
+        line-height: 37px;
+        width: 66%;
+    }
+
+    .wthirdFont {
+        font-size: 23px;
+        line-height: 37px;
+        width: 66%;
+    }
+
+    .wfirstimg {
+        width: 75px;
+
+    }
+
+    .cleaningServices {
+        font-size: 34px;
+        margin-left: 10px;
+    }
+
+    .footerList li a {
+        font-size: 18px;
+    }
+
+    .selectFont {
+        font-size: 27px;
+    }
+
+    .selectText {
+        font-size: 16px;
+    }
+
+    .easy {
+        font-size: 27px;
+    }
+
+    .deal {
+        font-size: 45px;
+    }
+
+    .workflow {
+        font-size: 18.42px;
+    }
+
+    .cleaningService {
+        font-size: 35px;
+        font-weight: 600;
+        color: #FFFFFF;
+        line-height: 35px;
+    }
+
+    .mobileHand {
+        margin-top: -150px;
+    }
+
+    .handButton {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .container {
+        max-width: 960px !important;
+        min-width: 769px !important;
+    }
+
+    .navbar-nav .nav-link {
+        color: white !important;
+        font-weight: 500 !important;
+        font-size: 14px !important;
+        font-family: "Sofia";
+        padding: 0px 20px !important;
+    }
+
+    .signUp {
+        padding: 3px 10px !important;
+    }
+
+    .logIn {
+        padding: 3px 10px !important;
+    }
+
+    .professional {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .offer {
+        font-size: 18px;
+    }
+
+    .fastService {
+        font-size: 14px;
+    }
+
+    .book {
+        font-size: 16px;
+    }
+
+    .bookButton {
+        width: 30%;
+        margin-top: 25px;
+    }
+
+    .cleaningServices {
+        font-size: 32px;
+    }
+
+    .wsecondFont {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .wfirstFont {
+        line-height: 32px;
+    }
+
+    .app {
+        font-size: 40px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 960px) {
+    .container {
+        max-width: 768px !important;
+        min-width: 480px !important;
+    }
+
+    .houseSweep {
+        width: 30vw;
+    }
+
+    .firstSectionPart {
+        margin-top: 50px !important;
+    }
+
+    .bookButton {
+        width: 35%;
+    }
+
+    .washroomPart {
+        grid-template-columns: 47% 47%;
+        margin-top: 0px !important;
+    }
+
+    .getButton {
+        width: 55%;
+    }
+
+    .easy {
+        font-size: 22px;
+    }
+
+    .applelogo {
+        width: 16%;
+    }
+
+    .product {
+        font-size: 20px;
+    }
+
+    .deal {
+        font-size: 33px;
+    }
+
+    .content {
+        font-size: 16px;
+    }
+
+    .workflow {
+        font-size: 14.42px;
+    }
+
+    .five {
+        /* padding: 30px; */
+        justify-content: space-around;
+    }
+
+    .fiveSection {
+        padding: 30px;
+    }
+
+    .cleaningService {
+        font-size: 29px;
+    }
+
+    .handButton {
+        width: 30%;
+    }
+
+    .hand {
+        font-size: 18px;
+    }
+
+    .selectFont {
+        font-size: 20px;
+    }
+
+    .selectText {
+        font-size: 12px;
+    }
+
+    .purpleFont {
+        font-size: 20px;
+    }
+
+    .walt {
+        font-size: 20px;
+    }
+
+    .cust {
+        font-size: 18px;
+    }
+
+    .purpleImagePart {
+        width: 87%;
+    }
+
+    .purpleDiv {
+        padding: 12%;
+    }
+
+    .menImage {
+        width: 80px;
+    }
+
+    .fullForm {
+        grid-template-columns: 100%;
+
+    }
+
+    .message {
+        width: 84%;
+    }
+
+    .formButton {
+        width: 89%;
+    }
+
+    .query {
+        font-size: 20px;
+    }
+
+    .firstName {
+        padding: 10px;
+    }
+
+    .footerList li a {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .header {
+        position: static !important;
+    }
+
+    .houseSweeps {
+        width: 17vw;
+    }
+
+    .apps {
+        font-size: 35px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 80% !important;
+    }
+
+    .firstSectionPart {
+        display: block;
+    }
+
+    .col-md-6 {
+        width: 80% !important;
+        margin: 0 auto;
+    }
+
+    .mainformPart {
+        display: block;
+    }
+
+    .dualline {
+        display: block;
+    }
+
+    .buttonnow {
+        display: block;
+    }
+
+    .booknow {
+        display: none;
+    }
+
+    .getButton {
+        width: 34%;
+    }
+
+    .washroomPart {
+        grid-template-columns: 95%;
+    }
+
+    .lines {
+        margin-top: 20px;
+    }
+
+    .mobilePart {
+        display: none;
+    }
+
+    .mobileParts {
+        display: block;
+        margin-top: 50px;
+
+    }
+
+    .workFlowDiv {
+        align-items: flex-start;
+    }
+
+    .fiveSection {
+        display: none;
+    }
+
+    .fiveSections {
+        display: block;
+    }
+
+    .mobileHand {
+        margin-top: 0px !important;
+    }
+
+    .mobilehands {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .handButton {
+        width: 100%;
+    }
+
+    .mobileHand {
+        width: 60%;
+        margin-left: 50px;
+    }
+
+    .hand {
+        font-size: 14px;
+    }
+
+    .selectFont {
+        font-size: 16px;
+    }
+
+    .six {
+        margin-top: 100px;
+    }
+
+    .slider {
+        margin-top: 100px;
+    }
+
+    .footerNav {
+        display: block;
+
+    }
+
+    .footerList {
+        display: block;
+    }
+
+    ul {
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .firstName {
+        width: 100%;
+    }
+
+    .message {
+        width: 100%;
+    }
+
+    .fiveSections {
+        padding: 10% 0;
+    }
+
+    html,
+    body {
+        /* width: 100%; */
+        /* overflow-x: hidden; */
+    }
+
+
+}
+@media only screen and (max-width: 480px){
+    .firstSection{
+        width: fit-content;
+    }
+    .eightSection{
+        width: fit-content;
+    }
+}
